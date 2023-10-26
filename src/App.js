@@ -8,9 +8,9 @@ import SubmissionP from './Pages/SubmissionP/Submission';
 function App() {
   return (
     <>
-    <Login/>
+    {/* <Login/> */}
      {/* <FormP/> */}
-     {/* <SubmissionP/> */}
+     <SubmissionP/>
          </>
   );
 }
