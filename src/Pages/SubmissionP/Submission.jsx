@@ -59,7 +59,7 @@ const SubmissionP = () => {
             
             <div className='container-3'>
                 <p>Our students vouch for us. Hear them speak.</p>
-                <iframe width="650" height="300"
+                <iframe className="videow"
                 src="https://www.youtube.com/embed/Tcbz3K3trh4">
                 </iframe>
             </div>
