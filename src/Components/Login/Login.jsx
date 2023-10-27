@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css"
+import { useNavigate } from "react-router-dom";
  const Login=()=>{
 
     const [mob,setMob]=useState('')
@@ -8,6 +9,7 @@ import "./Login.css"
     const [mobError, setMobError] = useState("");
     const [fnameError, setFnameError] = useState("");
     const [emailError, setEmailError] = useState("");
+    const navigate=useNavigate()
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
@@ -41,6 +43,8 @@ import "./Login.css"
         if (hasError) {
           return;
         }
+
+        navigate('/upsc')
       };
     
     return (
