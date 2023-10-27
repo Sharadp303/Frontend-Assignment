@@ -7,11 +7,11 @@ import SubmissionP from './Pages/SubmissionP/Submission';
 
 
 const router=createBrowserRouter([{
-  path:'/',
+  path:"/",
   element:<FormP/>
 },
 {
-  path:'/upsc',
+  path:"upsc",
   element:<SubmissionP/>
 }])
 
