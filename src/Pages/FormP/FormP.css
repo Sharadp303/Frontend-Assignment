@@ -1,6 +1,17 @@
 .main{
-    background-color:yellow;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+@media (max-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+body{
+    background-color:#ffb59af5 ;
 }

@@ -5,6 +5,8 @@
     align-items: center;
     border: none;
     border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
 }
 .l-heading{
     font-family: Arial, Helvetica, sans-serif;
@@ -33,10 +35,12 @@
     padding: 5px;
 }
 .l-input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     width:90%;
-    height: 50px;
+    height:70px;
     margin: 15px;
-    padding: 15px;
+    padding: 20px;
     border: solid rgb(174, 171, 171) 1px;;
 }
 .l-bottom{
@@ -47,4 +51,15 @@
     font-family: Arial, Helvetica, sans-serif;
     max-width: 80%;
     color: rgb(174, 171, 171);
+}
+
+@media (max-width: 768px){
+  .login-container{
+    margin-top: 120px;
+  }   
+}
+
+.error-message{
+    color: red;
+    padding:3px;
 }

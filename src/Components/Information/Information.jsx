@@ -6,11 +6,10 @@ const Information=()=>{
         <>
             <div className="information-container">
                 <div className="i-head">
-                <span className="i-heading" ><strong>UPSC</strong> PATHSHALA</span>
+                    <span className="i-heading" ><strong>UPSC</strong> PATHSHALA</span>
                 </div>
                 <div className="i-1">
-                    <p>Best Online Coaching</p>
-                    <p>for UPSC Preparation</p>
+                            <p>Best Online Coaching for UPSC Preparation</p>
                 </div>
                 <div className="i-2">
                     <img className="i-image" src="./Img/annual.jpg" alt="img"/>

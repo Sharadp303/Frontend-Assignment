@@ -204,10 +204,7 @@
     box-shadow: 3px 3px #c9c6c6;
 }
 
-
-
 @media (max-width: 768px) {
-    /* Mobile styles go here */
     .submission-container {
         flex-direction: column;
         align-items: center;
@@ -259,5 +256,5 @@
         align-items: center;
     }
 
-    /* Adjust other styles as needed for mobile layout */
+    
 }
