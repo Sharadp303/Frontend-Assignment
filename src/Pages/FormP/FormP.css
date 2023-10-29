@@ -9,7 +9,14 @@
     position: relative;
     padding: 50px;
 }
-@media (max-width: 768px){
+/* Mobile view */
+@media (max-width: 480px) {
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }   
+  }
+  @media (min-width: 481px) and (max-width: 768px){
     .main{
         display: flex;
         flex-direction: column-reverse;

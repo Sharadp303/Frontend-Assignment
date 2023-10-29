@@ -53,7 +53,25 @@
     color: rgb(174, 171, 171);
 }
 
-@media (max-width: 768px){
+@media (max-width: 480px){
+    .login-container{
+        margin-top: 120px;
+       
+      }  
+      .l-bottom{
+        margin-right:40px;
+        position: relative;
+        right:38px;
+        /* padding: 5px; */
+        line-height: 1;
+        text-align: center;
+      
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        color: rgb(174, 171, 171);
+    }
+}
+@media (min-width: 481px) and (max-width: 768px){
   .login-container{
     margin-top: 120px;
   }   
